@@ -49,6 +49,9 @@
           background-repeat: no-repeat;
           background-size: cover;
         }
+        p{
+          font-family: poppins;
+        }
     </style>
 </head>
 <body>
@@ -253,11 +256,16 @@
       </section>
 
       <!-- F A Q -->
-      <section class="flex flex-col md:flex-row">
-        <div class="mt-32">
+      <div>
+        <h2 class="text-4xl font-bold garamond">Frequently Asked Questions</h2>
+      <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </div>
+      <section class="flex flex-col-reverse md:flex-row gap-10">
+        
+        <div class="">
           <div class="collapse collapse-plus bg-base-200 mb-5">
             <input type="radio" name="my-accordion-3" checked="checked" /> 
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-medium garamond">
               Are application fee waivers available?
             </div>
             <div class="collapse-content"> 
@@ -266,7 +274,7 @@
           </div>
           <div class="collapse collapse-plus bg-base-200 mb-5">
             <input type="radio" name="my-accordion-3" /> 
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-medium garamond">
               Are application paid waivers available?
             </div>
             <div class="collapse-content"> 
@@ -275,7 +283,7 @@
           </div>
           <div class="collapse collapse-plus bg-base-200 mb-5">
             <input type="radio" name="my-accordion-3" /> 
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-medium garamond">
               Are application scholarship waivers available?
             </div>
             <div class="collapse-content"> 
@@ -284,7 +292,7 @@
           </div>
           <div class="collapse collapse-plus bg-base-200 mb-5">
             <input type="radio" name="my-accordion-3" /> 
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-medium garamond">
               Are application fee half available?
             </div>
             <div class="collapse-content"> 
@@ -293,14 +301,115 @@
           </div>
         </div>
 
-        <div class="mt-32">
+        <div class="">
           <img src="images/faq.png" alt="">
         </div>
 
       </section>
 
-    </main>
+      <!-------------------- contact ---------------------------------------->
+      <section class="">
+        <div class="space-y-5">
+          <h2 class="text-4xl font-bold text-center garamond">Frequently Asked Questions</h2>
+        <p class="text-gray-700 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        
+        <div class="flex justify-between mt-12">
+          <!-- card container -->
+          <div class="card-container grid grid-cols-1 md:grid-cols-2">
+            <!-- card 1 -->
+            <div class="w-60 h-60 bg-[#F3F3F3] p-4 border-r-2 border-b-2">
+              <figure class="px-10 pt-4 flex justify-center">
+                <img src="images/location.png" alt="Shoes" class="" />
+              </figure>
+              <div class="items-center text-center">
+                <h2 class="text-xl garamond">Adress</h2>
+                <p class="text-gray-600">A108 Adam Street,
+                  New York,<br> NY 535022</p>
+              </div>
+            </div>
+            <!-- card 2 -->
+            <div class="w-60 h-60 bg-[#F3F3F3] p-4 border-b-2">
+              <figure class="px-10 pt-4 flex justify-center">
+                <img src="images/location.png" alt="Shoes" class="" />
+              </figure>
+              <div class="items-center text-center">
+                <h2 class="text-xl garamond">Adress</h2>
+                <p class="text-gray-600">A108 Adam Street,
+                  New York,<br> NY 535022</p>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="w-60 h-60 bg-[#F3F3F3] p-4 border-r-2">
+              <figure class="px-10 pt-4 flex justify-center">
+                <img src="images/location.png" alt="Shoes" class="" />
+              </figure>
+              <div class="items-center text-center">
+                <h2 class="text-xl garamond">Adress</h2>
+                <p class="text-gray-600">A108 Adam Street,
+                  New York,<br> NY 535022</p>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div class="w-60 h-60 bg-[#F3F3F3] p-4">
+              <figure class="px-10 pt-4 flex justify-center">
+                <img src="images/location.png" alt="Shoes" class="" />
+              </figure>
+              <div class="items-center text-center">
+                <h2 class="text-xl garamond">Adress</h2>
+                <p class="text-gray-600">A108 Adam Street,
+                  New York,<br> NY 535022</p>
+              </div>
+            </div>
+          
+          </div>
 
+          <div class="flex flex-col gap-8 w-1/2">
+            <input type="text" placeholder="Type here" class="input input-bordered w-3/4 mx-auto" />
+            <input type="text" placeholder="Type here" class="input input-bordered w-3/4 mx-auto" />
+            <input type="text" placeholder="Type here" class="input input-bordered w-3/4 mx-auto" /> 
+            <textarea class="textarea textarea-bordered w-3/4 mx-auto h-[160px]" placeholder="Bio"></textarea>
+            <button class="btn btn-success w-3/4 mx-auto text-white">Send Massage</button>
+          </div>
+        </div>
+    </main>
+    <!-- --------------------footer----------------------------------------- -->
+    <footer class=" footer bg-gray-950 text-base-content text-white px-80 py-12 mt-20">
+      <nav>
+        <header class="footer-title"> <img src="images/logo.png" alt=""></header> 
+        <p class="w-40">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </nav> 
+      <nav>
+        <header class="footer-title">Important Links</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav> 
+      <nav>
+        <header class="footer-title">Contact Now</header> 
+        <a class="link link-hover">555 4th 5t NW, Washington <br>
+          DC 20530, United States</a>
+        <a class="link link-hover">+88 01750 000 000 <br>
+          +88 01750 000 000</a>
+        <a class="link link-hover">infoxyz@gmail.com <br>
+          infoabc@gmail.com</a>
+      </nav> 
+      <form>
+        <header class="footer-title">Newsletter</header> 
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text text-gray-400">Enter your email address</span>
+          </label> 
+          <div class="join">
+            <input type="text" placeholder="username@gmail.com" class="input input-bordered join-item" /> 
+            <button class="btn btn-success text-white join-item">
+              <i class="fa-solid fa-location-arrow"></i>
+            </button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
 
 </body>
 </html>
